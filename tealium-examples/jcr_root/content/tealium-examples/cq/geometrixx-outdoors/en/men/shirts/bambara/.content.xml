@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2011-12-05T17:03:33.874+01:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[geometrixx-outdoors:gender/men,geometrixx-outdoors:apparel/shirt,geometrixx-outdoors:season/summer]"
+        cq:template="/apps/geometrixx-outdoors/templates/page_product"
+        jcr:description="Men's Cotton T-Shirt"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Bambara Cargo"
+        jcr:uuid="b67db867-5ba7-4f4f-92c7-46fb77f604ee"
+        sling:resourceType="tealium-example/cq/geometrixx-outdoors/page_product">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <product
+                jcr:created="{Date}2011-11-14T22:24:41.636+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2011-11-14T22:31:02.438+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-outdoors/components/product"
+                identifier="023984"
+                price="$12.50"
+                sizes="[XS,S,M,L,XL,2XL]">
+                <image
+                    jcr:lastModified="{Date}2011-11-14T22:24:43.159+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="geometrixx-outdoors/components/product/image"
+                    fileReference="/content/dam/geometrixx-outdoors/products/shirt/Bambara.jpg"/>
+                <variant
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys"/>
+            </product>
+            <tabctrl
+                jcr:created="{Date}2011-12-05T16:58:51.736+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2011-12-05T16:59:16.419+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-outdoors/components/tabctrl"
+                tabs="[Product Summary,Features]">
+                <tab-0
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys">
+                    <text
+                        jcr:created="{Date}2011-12-03T15:01:51.285+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2011-12-05T16:59:36.760+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="foundation/components/text"
+                        text="&lt;p>The Bambara tee is made with a light weave of pure cotton. Just throw it on an go. Available in a variety of sizes and colors, this is the ideal utility tee. Everyone should have half a dozen of these!&lt;br>&#xa;&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                </tab-0>
+                <tab-1
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys">
+                    <text
+                        jcr:created="{Date}2011-12-03T15:01:04.522+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2011-12-05T17:00:45.254+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="foundation/components/text"
+                        text="&lt;ul>&#xa;&lt;li>Light weight 100% cotton&lt;/li>&#xa;&lt;li>Odor-resistent&lt;/li>&#xa;&lt;li>Available in five colors: sandstorm brown, fire engine red, sky blue, ice white and obsidian black&lt;/li>&#xa;&lt;li>Easy-wash: Guaranteed not to shrink in the dryer&lt;/li>&#xa;&lt;li>Double stitched for durability&lt;/li>&#xa;&lt;li>Available in sizes XS to XXL&lt;/li>&#xa;&lt;/ul>&#xa;"
+                        textIsRich="true"/>
+                </tab-1>
+            </tabctrl>
+        </par>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2011-12-07T10:48:25.956+01:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[geometrixx-outdoors:gender/men,geometrixx-outdoors:apparel/shorts,geometrixx-outdoors:season/summer,geometrixx-outdoors:activity/hiking]"
+        cq:template="/apps/geometrixx-outdoors/templates/page_product"
+        jcr:description="Men's Shorts"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Tuareg Summer"
+        jcr:uuid="a708f4a7-463d-4088-bd4d-554a6fa2087b"
+        sling:resourceType="tealium-example/cq/geometrixx-outdoors/page_product">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <product
+                jcr:created="{Date}2011-11-14T22:32:47.127+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2011-11-14T22:33:34.868+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-outdoors/components/product"
+                identifier="38746"
+                price="$39.90">
+                <image
+                    jcr:lastModified="{Date}2011-11-14T22:32:50.339+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="geometrixx-outdoors/components/product/image"
+                    fileReference="/content/dam/geometrixx-outdoors/products/shorts/Tuareg.jpg"/>
+            </product>
+            <tabctrl
+                jcr:created="{Date}2011-12-06T16:07:59.357+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2011-12-06T16:08:31.890+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-outdoors/components/tabctrl"
+                tabs="[Product Summary,Features]">
+                <tab-0
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys">
+                    <text
+                        jcr:created="{Date}2011-12-03T16:00:14.855+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2011-12-07T10:48:05.308+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="foundation/components/text"
+                        text="&lt;p>Easywash lightweight cotton keeps you cool and comfortable in the hottest weather. Pre-shrunk stain-resistant fabric. Extra-deep front pockets. Natural Fit is relaxed through the hip and thigh with straight legs. Double stitching throughout. Machine wash and dry.&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                </tab-0>
+                <tab-1
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys">
+                    <text
+                        jcr:created="{Date}2011-12-03T16:00:14.973+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2011-12-07T10:48:13.479+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="foundation/components/text"
+                        text="&lt;ul>&#xa;&lt;li>Lightweight, breathable cotton keeps you cool on hot summer days&lt;/li>&#xa;&lt;li>Large pockets secure essentials like your keys and wallet&lt;/li>&#xa;&lt;li>Comes in range of colors&lt;/li>&#xa;&lt;li>Easywash, pre-shrunk and stain-resistant&lt;/li>&#xa;&lt;/ul>&#xa;"
+                        textIsRich="true"/>
+                </tab-1>
+            </tabctrl>
+        </par>
+    </jcr:content>
+</jcr:root>

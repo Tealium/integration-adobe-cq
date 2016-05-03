@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2011-12-07T10:49:18.951+01:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[geometrixx-outdoors:gender/men,geometrixx-outdoors:activity/hiking,geometrixx-outdoors:season/summer,geometrixx-outdoors:apparel/pants]"
+        cq:template="/apps/geometrixx-outdoors/templates/page_product"
+        jcr:description="Men's Hiking Pants"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Fulani Nomad"
+        jcr:uuid="63038991-edfe-40e1-a5ca-2179ca9973b7"
+        sling:resourceType="tealium-example/cq/geometrixx-outdoors/page_product">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <product
+                jcr:created="{Date}2011-11-14T22:20:53.121+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2011-12-01T15:11:24.961+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-outdoors/components/product"
+                identifier="834765"
+                price="$59.90"
+                sizes="Q">
+                <image
+                    jcr:lastModified="{Date}2011-11-14T22:21:51.332+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="geometrixx-outdoors/components/product/image"
+                    fileReference="/content/dam/geometrixx-outdoors/products/pants/Fulani.jpg"/>
+                <variant
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys"/>
+                <title
+                    jcr:lastModified="{Date}2011-12-01T15:14:32.673+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="geometrixx-outdoors/components/product/title"/>
+            </product>
+            <tabctrl
+                jcr:created="{Date}2011-12-06T16:07:59.357+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2011-12-06T16:08:31.890+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-outdoors/components/tabctrl"
+                tabs="[Product Summary,Features]">
+                <tab-0
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys">
+                    <text
+                        jcr:created="{Date}2011-12-03T15:58:08.726+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2011-12-07T10:48:58.194+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="foundation/components/text"
+                        text="&lt;p>Fulani pants are ideal for hiking or camping. Durable quick-dry fabric ensures that you are always comfortable. An elasticized waistband provides comfort and fit. And best of all, when you get too warm, you can convert them to shorts!&lt;br>&#xa;&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                </tab-0>
+                <tab-1
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys">
+                    <text
+                        jcr:created="{Date}2011-12-03T15:58:08.849+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2011-12-07T10:49:03.323+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="foundation/components/text"
+                        text="&lt;ul>&#xa;&lt;li>Quick-dry fabric&lt;/li>&#xa;&lt;li>Plenty of pockets&lt;/li>&#xa;&lt;li>Zippable legs for conversion&amp;nbsp; to shorts&lt;/li>&#xa;&lt;/ul>&#xa;"
+                        textIsRich="true"/>
+                </tab-1>
+            </tabctrl>
+        </par>
+    </jcr:content>
+</jcr:root>
