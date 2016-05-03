@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-01-23T10:45:46.759+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/geometrixx-outdoors/templates/page_sidebar"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Shorts"
+        jcr:uuid="63c3d4d8-5608-4886-8173-d2c400c2c831"
+        sling:resourceType="tealium-example/cq/geometrixx-outdoors/page_sidebar">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <image_f0ec
+                jcr:created="{Date}2012-01-23T09:51:34.505+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-01-23T09:51:34.505+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/geometrixx-outdoors/banners/runner.jpg"/>
+            <nav_products
+                jcr:created="{Date}2011-11-14T22:10:23.234+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-01-23T10:45:46.758+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="geometrixx-outdoors/components/nav_products"
+                displayAs="product"
+                listFrom="tags"
+                orderBy="jcr:title"
+                tags="[geometrixx-outdoors:gender/men,geometrixx-outdoors:apparel/shorts]"
+                tagsMatch="all"
+                tagsSearchRoot="/content/geometrixx-outdoors/en"/>
+        </par>
+    </jcr:content>
+    <jola/>
+    <marka/>
+    <tuareg/>
+</jcr:root>
