@@ -6,7 +6,7 @@ This file is the README.md for the Tealium Integration with Adobe CQ.
 
 Documentation can be found in the /documentation directory.
 
-https://github.com/Tealium/integration-adobe-cq/blob/master/documentation/tealium-integration-adobe-aem.pdf
+https://github.com/Tealium/integration-adobe-cq/blob/master/documentation/tealium-integration-adobe-cq.pdf
 
 
 ## Examples
